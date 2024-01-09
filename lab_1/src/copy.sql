@@ -1,0 +1,4 @@
+copy fb.footballer(first_name, last_name, age, country, salary, phone_number) from '/home/hieubich/DB/lab_1/docs/footballer.csv' delimiter ',' csv;
+copy fb.coach(first_name, last_name, age, country, work_experience, phone_number, salary, email) from '/home/hieubich/DB/lab_1/docs/coach.csv' delimiter ',' csv;
+copy fb.club(name, city, country, num_of_fans, email, foundation_year) from '/home/hieubich/DB/lab_1/docs/club.csv' delimiter ',' csv;
+copy fb.transfer(cost, position, num_of_goals, rating, id_footballer, id_coach, id_club) from '/home/hieubich/DB/lab_1/docs/transfer.csv' delimiter ',' csv;
